@@ -1,0 +1,10 @@
+build/
+.venv/
+__pycache__/
+checks/local-*.json
+checks/local-*.png
+checks/server.log
+checks/server-error.log
+.env
+.env.*
+!.env.example

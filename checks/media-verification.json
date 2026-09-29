@@ -1,0 +1,63 @@
+{
+  "original_file_sha256": "521b68e4752087d7ec7beef39871afb8567963fe0de248a60b5acd8fb4523111",
+  "archived_audio_bit_exact": true,
+  "video_stream_unchanged": true,
+  "decoded_audio_correlation_at_zero_lag": 0.9999879436642876,
+  "linear_gain_ratio": 0.9992387294769287,
+  "original_duration": 47.64734693877551,
+  "pauses": [
+    {
+      "start": 4.85,
+      "end": 5.14,
+      "original_dbfs": -67.02002716064453,
+      "playback_dbfs": -67.08135986328125
+    },
+    {
+      "start": 15.95,
+      "end": 16.6,
+      "original_dbfs": -66.65299224853516,
+      "playback_dbfs": -66.65777587890625
+    },
+    {
+      "start": 34.25,
+      "end": 34.89,
+      "original_dbfs": -84.98432159423828,
+      "playback_dbfs": -85.00354766845703
+    },
+    {
+      "start": 43.95,
+      "end": 44.5,
+      "original_dbfs": -87.46562957763672,
+      "playback_dbfs": -87.4716567993164
+    }
+  ],
+  "playback_media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "duration": "47.666016",
+        "nb_frames": "1430"
+      },
+      {
+        "codec_name": "aac",
+        "profile": "LC",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 1,
+        "duration": "47.647007",
+        "nb_frames": "2053"
+      }
+    ],
+    "format": {
+      "duration": "47.666016",
+      "size": "4546437"
+    }
+  },
+  "full_decode": "passed"
+}

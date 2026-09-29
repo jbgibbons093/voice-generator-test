@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A brief animated summary of our JAMA Internal Medicine study on Medicare insulin caps, patient spending, and diabetes care.">
+  <title>Insulin costs & diabetes care · PORTAL</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <a href="https://portalresearch.org/about-portal/" aria-label="About PORTAL">
+      <img src="assets/Portal_Logo_Hex.svg" alt="PORTAL — Program On Regulation, Therapeutics, And Law" width="280" height="98">
+    </a>
+    <span>Research in under a minute</span>
+  </header>
+  <main>
+    <div class="intro">
+      <p class="eyebrow">JAMA INTERNAL MEDICINE · 2026</p>
+      <h1>When insulin costs fall,<br>what changes?</h1>
+      <p class="lede">Our study examined insulin spending and diabetes care among nearly five million Medicare beneficiaries.</p>
+    </div>
+    <section class="film" aria-label="Watch the study summary">
+      <video id="study-video" controls playsinline preload="metadata" poster="media/poster.jpg" aria-label="Narrated animation summarizing the Medicare insulin cap study">
+        <source src="media/portal-insulin-study.mp4" type="video/mp4">
+        <track src="captions.vtt" kind="captions" srclang="en" label="English">
+        Your browser does not support this video. <a href="media/portal-insulin-study.mp4">Download the video</a>.
+      </video>
+      <div class="player-tools">
+        <button id="play-sound" type="button"><span aria-hidden="true">▶</span> Play with sound</button>
+        <a class="download" href="media/portal-insulin-study.mp4" download="PORTAL-Insulin-Study.mp4">Download video <span aria-hidden="true">↓</span></a>
+        <span class="duration">48 seconds · captions included</span>
+      </div>
+      <p id="playback-status" role="status" aria-live="polite">Click play to hear the narration.</p>
+      <noscript><p>Use the video’s play button to hear the narration.</p></noscript>
+    </section>
+    <section class="study" aria-labelledby="study-title">
+      <div>
+        <p class="eyebrow">THE FULL STUDY</p>
+        <h2 id="study-title">Out-of-Pocket Spending for Insulin by Medicare Beneficiaries After Monthly Caps</h2>
+        <p>Hong and colleagues · <i>JAMA Internal Medicine</i> · 2026;186(6):723–731</p>
+        <p class="authors">Dongzhe Hong, Krystal Cantos, Diana Morgenstern, Sonali Dasgupta, Aaron S. Kesselheim, Zirui Song, Angela Y. Tong, Rohit Chadaram, Danielle Potter, Elisabetta Patorno, Jerry Avorn, and Benjamin N. Rome.</p>
+      </div>
+      <a class="article-link" href="https://doi.org/10.1001/jamainternmed.2026.0255">Read the paper <span aria-hidden="true">↗</span></a>
+    </section>
+    <details class="transcript">
+      <summary>Read the narration</summary>
+      <p>We wanted to know whether making insulin more affordable could improve diabetes care, so we studied nearly five million Medicare beneficiaries with type two diabetes as the thirty-five-dollar monthly cap rolled out in twenty twenty-one and expanded in twenty twenty-three. After the expansion, insulin users paid about fifty-nine dollars less out of pocket per quarter and filled slightly more insulin. Among patients with lab results, average blood sugar also improved modestly, although serious low-blood-sugar events became slightly more common across the study population. Our findings suggest that lower costs can improve access, while persistent costs for other medicines point to the need for broader affordability policies. You can read our full study in JAMA Internal Medicine.</p>
+      <a href="script.txt" download>Download the script</a>
+    </details>
+    <details class="audio-help">
+      <summary>Having trouble hearing the video?</summary>
+      <p>Check the video player’s speaker control and your device volume, or play the original narration here.</p>
+      <audio id="original-audio" controls preload="none" src="media/narration-original.mp3" aria-label="Original unedited narration"></audio>
+      <p><a href="media/narration-original.mp3" download>Download the original recording</a></p>
+    </details>
+  </main>
+  <footer><a href="https://portalresearch.org/">PORTAL</a><span>Program On Regulation, Therapeutics, And Law</span></footer>
+  <script src="player.js"></script>
+</body>
+</html>
