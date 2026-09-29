@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A brief animated summary of our JAMA Internal Medicine study on Medicare insulin caps, patient spending, and diabetes care.">
-  <title>Insulin costs & diabetes care · PORTAL</title>
+  <meta name="description" content="A narrated PORTAL animation about patient spending on generic and brand-name prescription drugs, with findings and policy implications from JAMA Network Open.">
+  <title>Generic and brand-name drug costs · PORTAL</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="generic-spending">
   <header class="masthead">
     <a href="https://portalresearch.org/about-portal/" aria-label="About PORTAL">
       <img src="assets/Portal_Logo_Hex.svg" alt="PORTAL — Program On Regulation, Therapeutics, And Law" width="280" height="98">
@@ -17,20 +17,20 @@
   </header>
   <main>
     <div class="intro">
-      <p class="eyebrow">JAMA INTERNAL MEDICINE · 2026</p>
-      <h1>When insulin costs fall,<br>what changes?</h1>
-      <p class="lede">Our study examined insulin spending and diabetes care among nearly five million Medicare beneficiaries.</p>
+      <p class="eyebrow">JAMA NETWORK OPEN · 2026</p>
+      <h1>How do generic and brand-name<br>medicines add to patient costs?</h1>
+      <p class="lede">Our study examined prescription use and patient spending in a nationally representative US survey from 2022.</p>
     </div>
     <section class="film" aria-label="Watch the study summary">
-      <video id="study-video" controls playsinline preload="metadata" poster="media/poster.jpg" aria-label="Narrated animation summarizing the Medicare insulin cap study">
-        <source src="media/portal-insulin-study.mp4" type="video/mp4">
-        <track src="captions.vtt" kind="captions" srclang="en" label="English">
-        Your browser does not support this video. <a href="media/portal-insulin-study.mp4">Download the video</a>.
+      <video id="study-video" controls playsinline preload="metadata" poster="media/generic-spending-poster.jpg" aria-label="Narrated animation summarizing the generic and brand-name prescription drug spending study">
+        <source src="media/portal-generic-spending.mp4" type="video/mp4">
+        <track src="generic-spending/captions.vtt" kind="captions" srclang="en" label="English">
+        Your browser does not support this video. <a href="media/portal-generic-spending.mp4">Download the video</a>.
       </video>
       <div class="player-tools">
         <button id="play-sound" type="button"><span aria-hidden="true">▶</span> Play with sound</button>
-        <a class="download" href="media/portal-insulin-study.mp4" download="PORTAL-Insulin-Study.mp4">Download video <span aria-hidden="true">↓</span></a>
-        <span class="duration">48 seconds · captions included</span>
+        <a class="download" href="media/portal-generic-spending.mp4" download="PORTAL-Generic-Drug-Costs.mp4">Download video <span aria-hidden="true">↓</span></a>
+        <span class="duration">55 seconds · captions included</span>
       </div>
       <p id="playback-status" role="status" aria-live="polite">Click play to hear the narration.</p>
       <noscript><p>Use the video’s play button to hear the narration.</p></noscript>
@@ -38,22 +38,24 @@
     <section class="study" aria-labelledby="study-title">
       <div>
         <p class="eyebrow">THE FULL STUDY</p>
-        <h2 id="study-title">Out-of-Pocket Spending for Insulin by Medicare Beneficiaries After Monthly Caps</h2>
-        <p>Hong and colleagues · <i>JAMA Internal Medicine</i> · 2026;186(6):723–731</p>
-        <p class="authors">Dongzhe Hong, Krystal Cantos, Diana Morgenstern, Sonali Dasgupta, Aaron S. Kesselheim, Zirui Song, Angela Y. Tong, Rohit Chadaram, Danielle Potter, Elisabetta Patorno, Jerry Avorn, and Benjamin N. Rome.</p>
+        <h2 id="study-title">Patient Out-of-Pocket Spending on Generic and Brand-Name Prescription Drugs</h2>
+        <p>Cai, Kesselheim, and Rome · <i>JAMA Network Open</i> · 2026;9(9):e2633401</p>
+        <p class="authors">Christopher L. Cai, Aaron S. Kesselheim, and Benjamin N. Rome.</p>
       </div>
-      <a class="article-link" href="https://doi.org/10.1001/jamainternmed.2026.0255">Read the paper <span aria-hidden="true">↗</span></a>
+      <a class="article-link" href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2853920">Read the paper <span aria-hidden="true">↗</span></a>
     </section>
+    <p><a href="insulin.html">Also watch our Medicare insulin cap study</a></p>
     <details class="transcript">
       <summary>Read the narration</summary>
-      <p>We wanted to know whether making insulin more affordable could improve diabetes care, so we studied nearly five million Medicare beneficiaries with type two diabetes as the thirty-five-dollar monthly cap rolled out in twenty twenty-one and expanded in twenty twenty-three. After the expansion, insulin users paid about fifty-nine dollars less out of pocket per quarter and filled slightly more insulin. Among patients with lab results, average blood sugar also improved modestly, although serious low-blood-sugar events became slightly more common across the study population. Our findings suggest that lower costs can improve access, while persistent costs for other medicines point to the need for broader affordability policies. You can read our full study in JAMA Internal Medicine.</p>
-      <a href="script.txt" download>Download the script</a>
+      <p>We wanted to understand how generic and brand-name medicines contribute to patients’ out-of-pocket costs, so we analyzed a nationally representative survey of prescription use and spending in twenty twenty-two. More than half of Americans filled a generic prescription, compared with about one in six who filled a brand-name prescription. Although brand-name drugs were more expensive per medicine, generics accounted for fifty-five percent of total out-of-pocket prescription spending. Our findings suggest that policies to reduce patients’ costs should address both. Lower brand-name prices could reduce what patients pay through deductibles and coinsurance. For generics, we highlight changes in insurance benefits: limiting out-of-pocket costs for high-value generic medicines, preventing patient charges from exceeding cash prices, or eliminating generic copayments altogether. These approaches address both the prices of medicines and how insurance determines patients’ costs. You can read our full study in JAMA Network Open.</p>
+      <a href="generic-spending/script.txt" download>Download the script</a>
     </details>
     <details class="audio-help">
       <summary>Having trouble hearing the video?</summary>
       <p>Check the video player’s speaker control and your device volume, or play the original narration here.</p>
-      <audio id="original-audio" controls preload="none" src="media/narration-original.mp3" aria-label="Original unedited narration"></audio>
-      <p><a href="media/narration-original.mp3" download>Download the original recording</a></p>
+      <audio id="original-audio" controls preload="none" src="media/generic-spending-narration-original.mp3" aria-label="Original unedited narration"></audio>
+      <p><a href="media/generic-spending-narration-original.mp3" download>Download the original recording</a></p>
+      <p><a href="archive/portal-generic-spending-original-audio.mp4" download>Download the video master with the original audio stream</a></p>
     </details>
   </main>
   <footer><a href="https://portalresearch.org/">PORTAL</a><span>Program On Regulation, Therapeutics, And Law</span></footer>

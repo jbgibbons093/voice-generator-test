@@ -1,8 +1,28 @@
 # voice-generator-test
 
-A PORTAL research video and a public viewing page for *Out-of-Pocket Spending for Insulin by Medicare Beneficiaries After Monthly Caps*.
+PORTAL research videos with public viewing pages. The main page presents *Patient Out-of-Pocket Spending on Generic and Brand-Name Prescription Drugs*. The Medicare insulin cap video remains available at `insulin.html`.
 
 **Watch:** https://jbgibbons093.github.io/voice-generator-test/
+
+**New paper:** Cai CL, Kesselheim AS, Rome BN. Patient Out-of-Pocket Spending on Generic and Brand-Name Prescription Drugs. JAMA Network Open. 2026;9(9):e2633401. https://doi.org/10.1001/jamanetworkopen.2026.33401
+
+## Generic and brand-name medicines
+
+The 55.327-second supplied narration retains every word and pause at its original speed. Thirteen animated scenes use an indigo, periwinkle, and coral palette and the official PORTAL logo. Findings and policy options follow the paper.
+
+- `index.html` is the main viewing page, with a sound-enabled play button and a link to the earlier video.
+- `media/portal-generic-spending.mp4` is the 1080p H.264/AAC-LC sharing version.
+- `media/generic-spending-narration-original.mp3` is the byte-identical supplied recording.
+- `archive/portal-generic-spending-original-audio.mp4` preserves the exact original MP3 audio stream. Both encoded audio packets and decoded samples were verified against the source.
+- `generic-spending/` contains the approved narration, scene timing, and SRT/WebVTT captions.
+- `src/render_generic.py` recreates the animation in `build/generic-spending/`. Run with `--preview` to generate stills.
+- `checks/generic-spending-media-verification.json` records the export checks. Browser verification measures decoded audio during playback.
+
+The AAC version preserves the performance through a codec conversion. Its decoded audio correlates 0.99997 with the supplied recording at zero lag. The exact MP3 audio is available in the original-audio master and standalone recording.
+
+## Medicare insulin cap video
+
+**Watch the earlier video:** https://jbgibbons093.github.io/voice-generator-test/insulin.html
 
 **Paper:** Hong et al. JAMA Internal Medicine. 2026;186(6):723–731. https://doi.org/10.1001/jamainternmed.2026.0255
 
@@ -16,7 +36,7 @@ The full recording is 47.647 seconds; the video is approximately 47.67 seconds a
 
 ## Contents
 
-- `index.html`, `styles.css`, `player.js`: responsive, click-to-play viewing page.
+- `insulin.html` is the insulin viewing page. Both viewing pages share `styles.css` and `player.js`.
 - `media/portal-insulin-study.mp4`: browser playback and sharing copy, H.264/AAC-LC, 1080p.
 - `media/narration-original.mp3`: unmodified supplied narration.
 - `archive/portal-insulin-original.mp4`: previous export with the unmodified MP3 audio stream.

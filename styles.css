@@ -48,3 +48,10 @@ footer a { font-weight: 700; }
   h2 { font-size: 23px; }
   footer { align-items: flex-start; }
 }
+
+.generic-spending { --ink: #171d4b; --teal: #3457ce; --paper: #f8f7f2; --muted: #586580; }
+.generic-spending h1, .generic-spending h2 { font-family: "Segoe UI", Arial, sans-serif; font-weight: 700; }
+.generic-spending h1 { font-size: clamp(34px, 4.5vw, 54px); }
+.generic-spending button { background: #ed795d; color: #171d4b; }
+.generic-spending button:hover { background: #e4684a; }
+.generic-spending video { background: #171d4b; }

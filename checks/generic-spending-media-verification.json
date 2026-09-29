@@ -1,0 +1,12 @@
+{
+  "source_sha256": "f97a342ada8fee46e1f501813cc14e37d63d6f6d6062ff43bf4eb77cd22567b5",
+  "source_duration_seconds": 55.32734693877551,
+  "master_pcm_exact": true,
+  "master_encoded_audio_exact": true,
+  "encoded_audio_hash": "SHA256=99caef38f8c96e919a34d2cda8c4512a6b4734b52fb269f2d54c834e039269fb",
+  "master_pcm_sha256": "2138c3d2d357397ebecdb2cbee944497838e276f50e3a49dbdfbf8c67fb8b447",
+  "sharing_zero_lag_correlation": 0.999971139298356,
+  "sharing_gain": 0.9990502595901489,
+  "sharing_extra_codec_padding_samples": 256,
+  "full_decode_passed": true
+}

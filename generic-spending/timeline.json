@@ -1,0 +1,80 @@
+[
+  {
+    "start": 0,
+    "end": 5.626304,
+    "scene": "question",
+    "narration": "We wanted to understand how generic and brand-name medicines contribute to patients’ out-of-pocket costs,"
+  },
+  {
+    "start": 5.626304,
+    "end": 11.495986,
+    "scene": "survey",
+    "narration": "so we analyzed a nationally representative survey of prescription use and spending in twenty twenty-two."
+  },
+  {
+    "start": 11.495986,
+    "end": 17.833356,
+    "scene": "use",
+    "narration": "More than half of Americans filled a generic prescription, compared with about one in six who filled a brand-name prescription."
+  },
+  {
+    "start": 17.833356,
+    "end": 20.720567,
+    "scene": "unit",
+    "narration": "Although brand-name drugs were more expensive per medicine,"
+  },
+  {
+    "start": 20.720567,
+    "end": 25.701429,
+    "scene": "spending",
+    "narration": "generics accounted for fifty-five percent of total out-of-pocket prescription spending."
+  },
+  {
+    "start": 25.701429,
+    "end": 30.34712,
+    "scene": "both",
+    "narration": "Our findings suggest that policies to reduce patients’ costs should address both."
+  },
+  {
+    "start": 30.34712,
+    "end": 35.011995,
+    "scene": "brand",
+    "narration": "Lower brand-name prices could reduce what patients pay through deductibles and coinsurance."
+  },
+  {
+    "start": 35.011995,
+    "end": 38.150068,
+    "scene": "benefits",
+    "narration": "For generics, we highlight changes in insurance benefits:"
+  },
+  {
+    "start": 38.150068,
+    "end": 41.4261,
+    "scene": "cap",
+    "narration": "limiting out-of-pocket costs for high-value generic medicines,"
+  },
+  {
+    "start": 41.4261,
+    "end": 44.22102,
+    "scene": "cash",
+    "narration": "preventing patient charges from exceeding cash prices,"
+  },
+  {
+    "start": 44.22102,
+    "end": 47.069592,
+    "scene": "zero",
+    "narration": "or eliminating generic copayments altogether."
+  },
+  {
+    "start": 47.069592,
+    "end": 52.652086,
+    "scene": "together",
+    "narration": "These approaches address both the prices of medicines and how insurance determines patients’ costs."
+  },
+  {
+    "start": 52.652086,
+    "end": 55.32734693877551,
+    "scene": "end",
+    "narration": "You can read our full study in JAMA Network Open."
+  }
+]
